@@ -4544,6 +4544,7 @@ textarea.form-control-lg {
 .card-body {
   flex: 1 1 auto;
   padding: 1rem 1rem;
+  width: 100% !important;
 }
 
 .card-title {
@@ -11375,6 +11376,7 @@ ol, ul {
 	margin:1% auto;	
   margin-bottom: 0;
   margin-top: 0;
+  width: 100% !important;
 }
 
 .zf-templateWidth { 
@@ -11978,6 +11980,7 @@ ol, ul {
 .zf-topAlign .zf-tempFrmWrapper .zf-labelName {
 	padding-bottom:8px;
 	display:block;
+  width: 100% !important;
 }
 
 .zf-topAlign .zf-threeColumns .zf-labelName, .zf-topAlign .zf-twoColumns .zf-labelName, .zf-topAlign .zf-oneColumns .zf-labelName, .zf-topAlign .zf-sideBySide .zf-labelName{ padding-bottom:8px;}
