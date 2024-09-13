@@ -1,4 +1,4 @@
-nav li a{
+nav li a {
     white-space: nowrap !important;
 }
 
@@ -7,6 +7,29 @@ nav {
     margin-right: 20px;
 }
 
-main article div p{
+main article div p {
     margin-left: 20px;
+}
+
+@media screen and (max-width: 850px) {
+    .nav-bar {
+        display: none;
+    }
+    .dropdown-bar{
+        margin-right: 40px !important;
+        margin-left: 20px;
+        margin-top: 20px;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    
+    .nav-bar {
+        display: block;
+    }
+    .dropdown-bar{
+        display: none;
+    }
+    
 }
