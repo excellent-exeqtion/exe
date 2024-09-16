@@ -73,3 +73,21 @@ main article div p {
         display: none;
     }
 }
+
+@media (prefers-color-scheme: light) {
+    .light-logo {
+        display: block;
+    }
+    .dark-logo{
+        display: none;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .light-logo {
+        display: none;
+    }
+    .dark-logo{
+        display: block;
+    }
+}
